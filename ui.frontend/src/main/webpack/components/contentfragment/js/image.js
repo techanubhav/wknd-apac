@@ -40,6 +40,34 @@
                 cf.style.backgroundImage = "url('" + assetPath + "')";
             }
         });
+        responsiveGridEl.querySelectorAll(".cmp-contentfragment--banner_govt .cmp-contentfragment[data-cmp-contentfragment-model=\"wknd/models/offer\"]:not([data-cmp-offer-processed='true'])").forEach(function (cf) {
+            // Mark the content fragment as processed, since we don't want to accidentally apply the JS adjustments multiple times
+            cf.setAttribute("data-cmp-offer-processed", true);
+
+            // Adjust the DOM, in this case injecting an img node and settings its source to the the content fragment's picture URL
+            var cfEls = cf.querySelector('.cmp-contentfragment__elements');
+            var assetPath = cfEls.querySelector(".cmp-contentfragment__element--heroImage .cmp-contentfragment__element-value").innerText.trim();
+
+            if (assetPath && assetPath.indexOf("/content/dam/") === 0) {
+                console.log(cf);
+                console.log(assetPath);
+                cf.style.backgroundImage = "url('" + assetPath + "')";
+            }
+        });
+        responsiveGridEl.querySelectorAll(".cmp-contentfragment--teaser_govt .cmp-contentfragment[data-cmp-contentfragment-model=\"wknd/models/offer\"]:not([data-cmp-offer-processed='true'])").forEach(function (cf) {
+            // Mark the content fragment as processed, since we don't want to accidentally apply the JS adjustments multiple times
+            cf.setAttribute("data-cmp-offer-processed", true);
+
+            // Adjust the DOM, in this case injecting an img node and settings its source to the the content fragment's picture URL
+            var cfEls = cf.querySelector('.cmp-contentfragment__elements');
+            var assetPath = cfEls.querySelector(".cmp-contentfragment__element--heroImage .cmp-contentfragment__element-value").innerText.trim();
+
+            if (assetPath && assetPath.indexOf("/content/dam/") === 0) {
+                console.log(cf);
+                console.log(assetPath);
+                cf.querySelector(".cmp-contentfragment__element--headline").style.backgroundImage = "url('" + assetPath + "')";
+            }
+        });
     }
 
     // Since mutation observers can only watch a single node (and not a node list), we'll register a mutation observer for each responsive grid

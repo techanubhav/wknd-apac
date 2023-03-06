@@ -1,0 +1,95 @@
+    /* elements */
+
+    .cmp-contentfragment--teaser_govt {
+
+        article {
+            background-size: cover;
+            background-position: center;
+            font-family: sans-serif;
+            width: 480px;
+            overflow: hidden;
+        }
+
+        .cmp-contentfragment__elements {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding-top: 0px;
+            color: black;
+            height: 100%;
+            margin: 0px;
+            
+
+            
+            .cmp-contentfragment__element--heroImage{
+                display: none;
+            }
+
+
+            .cmp-contentfragment__element {
+
+            }
+    
+            .cmp-contentfragment__element-title {
+                display: none;
+            }
+    
+            .cmp-contentfragment__element-value {
+                margin-top: 10px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+    
+            .cmp-contentfragment__element--headline {
+                font-size: 32px;
+                line-height: 60px;
+                /*text-transform: uppercase;*/
+                font-weight: 500;
+                background-size: cover;
+                background-position: 60%;
+                overflow: hidden;
+                padding-bottom: 30px;
+
+                .cmp-contentfragment__element-value {
+                    width: 290px;
+                    padding-left: 20px;
+                    padding-top: 20px;
+                }
+            }
+
+            .cmp-contentfragment__element--callToAction {
+                background-color: #7e7e7e;
+                color: #ffffff;
+                margin-left: 350px;
+                margin-top: 10px;
+                text-transform: uppercase;
+                font-size: 15px;
+                font-weight: 600;
+                width: 6pc;
+                padding: 15px;
+                padding-left: 20px;
+                padding-top: 10px;
+            }
+
+            .cmp-contentfragment__element--detail {
+                font-size: 16px;
+                text-transform:none;
+                width: 450px;
+                margin-left: 20px;
+                margin-right: 10px;
+            }
+
+            .cmp-contentfragment__element--ctaUrl {
+                display:none;
+            }
+
+            //mobile
+            @media (max-width: $screen-medium) {
+                .cmp-contentfragment__element {
+             
+                }
+    
+            }
+
+        }
+    }

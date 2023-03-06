@@ -11,8 +11,10 @@
     <filter root="/content/wknd" mode="merge"/>
     <filter root="/content/wknd-spa" mode="merge"/>
     <filter root="/content/dam/wknd" mode="merge"/>
+    <filter root="/content/dam/wknd/en/ausgov" mode="merge"/>
     <filter root="/content/dam/wknd-assets" mode="merge"/>
     <filter root="/content/experience-fragments/wknd" mode="merge"/>
+    <filter root="/content/experience-fragments/wknd/offer-masters"/>
     <filter root="/content/cq:tags/wknd" mode="merge"/>
     <filter root="/content/cq:graphql" mode="merge" />
     <filter root="/content/projects/request-assets-for-new-wknd-adventure" mode="merge"/>

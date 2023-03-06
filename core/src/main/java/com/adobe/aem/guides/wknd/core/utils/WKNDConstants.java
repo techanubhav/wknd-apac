@@ -9,7 +9,7 @@ public final class WKNDConstants {
 	public static final String OFFER_CF_PARRENT_PATH = "/content/dam/wknd/en/offers";
 	public static final String OFFER_CF_MASTER_VARIATION = "master";
 	
-	public static final String OFFER_XF_SEED_PAGE_PATH = "/content/experience-fragments/wknd/offer-masters/source-fragment";
+	public static final String OFFER_XF_SEED_PAGE_PATH = "/content/experience-fragments/wknd/offer-masters/master-offer-govt";
 	public static final String XF_LOCATION = "/content/experience-fragments/wknd/language-masters/en/offers/";
 
 	public static final String ADVENTURE_SEED_PAGE_PATH = "/content/wknd/language-masters/en/adventures/ski-touring-mont-blanc";

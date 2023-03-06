@@ -990,6 +990,18 @@
                                     cq:styleId="1625479048319"
                                     cq:styleLabel="Native App"
                                     jcr:primaryType="nt:unstructured"/>
+                                <item6
+                                    cq:styleClasses="cmp-contentfragment--banner_govt"
+                                    cq:styleElement="div"
+                                    cq:styleId="1677562361402"
+                                    cq:styleLabel="Banner Govt"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item7
+                                    cq:styleClasses="cmp-contentfragment--teaser_govt"
+                                    cq:styleElement="div"
+                                    cq:styleId="1677667176545"
+                                    cq:styleLabel="Teaser Govt"
+                                    jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item0>
                     </cq:styleGroups>
